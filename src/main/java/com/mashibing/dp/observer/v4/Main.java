@@ -2,6 +2,8 @@ package com.mashibing.dp.observer.v4;
 
 /**
  * 加入多个观察者
+ * 难扩展
+ * 不灵活，观察者的反应不一定耦合到这个事件
  */
 
 class Child {
