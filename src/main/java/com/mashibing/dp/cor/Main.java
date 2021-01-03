@@ -15,6 +15,7 @@ public class Main {
         FilterChain fc2 = new FilterChain();
         fc2.add(new FaceFilter()).add(new URLFilter());
 
+        // cos FilterChain implements Filter
         fc.add(fc2);
 
         fc.doFilter(msg);
