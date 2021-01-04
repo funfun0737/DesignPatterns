@@ -24,13 +24,15 @@ public class Tank implements Movable {
         }
     }
 
+    // new proxy的时候把被代理人传进去
     public static void main(String[] args) {
         new TankTimeProxy(new Tank()).move();
     }
 }
 
 class TankTimeProxy implements Movable {
-
+    // 聚合
+    // 好处比继承多
     Tank tank;
 
     public TankTimeProxy(Tank tank) {

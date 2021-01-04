@@ -13,7 +13,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         Enhancer enhancer = new Enhancer();
-        enhancer.setSuperclass(Tank.class);
+        enhancer.setSuperclass(Tank.class);//enhancer是tank的子类
         enhancer.setCallback(new TimeMethodInterceptor());
         Tank tank = (Tank)enhancer.create();
         tank.move();

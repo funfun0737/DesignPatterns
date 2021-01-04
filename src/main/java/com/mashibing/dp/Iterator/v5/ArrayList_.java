@@ -28,6 +28,7 @@ class ArrayList_ implements Collection_ {
         return new ArrayListIterator();
     }
 
+    // 设置成内部类是因为对其他类没什么用，就藏在里面
     private class ArrayListIterator implements Iterator_{
 
         private int currentIndex = 0;

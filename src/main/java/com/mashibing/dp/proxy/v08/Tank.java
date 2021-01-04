@@ -58,9 +58,12 @@ class LogHander implements InvocationHandler {
         this.tank = tank;
     }
     //getClass.getMethods[]
+
+    // 这个方法是什么时候被调用的呢
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("method " + method.getName() + " start..");
+        // 相当于 tank.move()
         Object o = method.invoke(tank, args);
         System.out.println("method " + method.getName() + " end!");
         return o;

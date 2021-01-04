@@ -34,6 +34,7 @@ class Child {
     }
 }
 
+// 事件类
 class wakeUpEvent{
     long timestamp;
     String loc;

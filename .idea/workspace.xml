@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglib/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglib/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweight/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweight/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v9/TestFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v9/TestFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v05/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v05/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v07/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v07/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v08/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v08/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/spring/v2/TimeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/spring/v2/TimeProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +90,13 @@
       <command value="bytecode " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (3)">
+  <component name="RunManager" selected="Application.Tank (3)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.command.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.composite.Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.command.*" />
+          <option name="PATTERN" value="com.mashibing.dp.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.prototype.v2.Test" />
+    <configuration name="Tank (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.proxy.v06.Tank" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.prototype.v2.*" />
+          <option name="PATTERN" value="com.mashibing.dp.proxy.v06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.prototype.v4.Test" />
+    <configuration name="Tank (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.proxy.v07.Tank" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.prototype.v4.*" />
+          <option name="PATTERN" value="com.mashibing.dp.proxy.v07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.Test" />
+    <configuration name="Tank (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.proxy.v08.Tank" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.*" />
+          <option name="PATTERN" value="com.mashibing.dp.proxy.v08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.prototype.v1.Test" />
+    <configuration name="Tank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.proxy.v02.Tank" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.prototype.v1.*" />
+          <option name="PATTERN" value="com.mashibing.dp.proxy.v02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Tank (3)" />
+        <item itemvalue="Application.Tank (2)" />
+        <item itemvalue="Application.Tank (1)" />
+        <item itemvalue="Application.Tank" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +268,24 @@
     <MESSAGE value="设计模式之Factory系列，FactoryMethod, AbstractFactory，以及spring bean工厂开头" />
     <MESSAGE value="设计模式继续" />
     <option name="LAST_COMMIT_MESSAGE" value="设计模式继续" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1740" height="268" key="GridCell.Tab.0.bottom" timestamp="1609711707814">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1740" height="268" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1609711707814" />
+    <state width="1740" height="268" key="GridCell.Tab.0.center" timestamp="1609711707813">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1740" height="268" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1609711707813" />
+    <state width="1740" height="268" key="GridCell.Tab.0.left" timestamp="1609711707812">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1740" height="268" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1609711707812" />
+    <state width="1740" height="268" key="GridCell.Tab.0.right" timestamp="1609711707813">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1740" height="268" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1609711707813" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

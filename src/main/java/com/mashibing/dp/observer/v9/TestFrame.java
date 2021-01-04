@@ -31,7 +31,7 @@ public class TestFrame extends Frame {
 		new TestFrame().launch();
 	}
 	
-	private class MyActionListener implements ActionListener { //Observer
+	private class MyActionListener implements ActionListener { // Observer interface
 
 		public void actionPerformed(ActionEvent e) {
 			((Button)e.getSource()).setLabel("press me again!");

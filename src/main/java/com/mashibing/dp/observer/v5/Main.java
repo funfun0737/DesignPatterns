@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * 分离观察者与被观察者
+ * 与责任链有很多相似之处
  */
 
 class Child {
@@ -30,6 +31,7 @@ class Child {
     }
 }
 
+// 多态的应用
 interface Observer {
     void actionOnWakeUp();
 }
